@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le Phénix & Maison Diamant Précieux</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#101010;color:#f8f3e8;font-family:Arial,sans-serif;line-height:1.6}
+header{text-align:center;padding:42px 16px;background:#080808;border-bottom:2px solid #c9a44c}
+h1,h2{color:#d8b45b}
+h1{font-size:30px;margin:0}
+header p{color:#ddd}
+section{padding:28px 18px;max-width:850px;margin:auto}
+.brand{border-bottom:1px solid #80662f;text-align:center;padding-bottom:24px}
+h2{font-size:25px}
+h3{color:#e2c77f;margin-bottom:6px}
+.prices{background:#1b1b1b;border:1px solid #6e572b;border-radius:12px;padding:16px;margin:12px 0;text-align:left}
+.price{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #37312a;padding:9px 0}
+.price:last-child{border:0}
+strong{color:#e2c77f;white-space:nowrap}
+a.btn{display:inline-block;background:#d0ad55;color:#111;text-decoration:none;font-weight:bold;padding:12px 20px;border-radius:7px;margin:8px}
+.note{color:#ccc;font-size:14px}
+footer{text-align:center;padding:25px;background:#080808;color:#ddd}
+img{max-width:170px;width:100%;background:white;padding:8px;border-radius:8px}
+</style>
+</head>
+<body>
+<header>
+<h1>LE PHÉNIX</h1>
+<p>Photography · Des images qui racontent votre histoire</p>
+<h1>MAISON DIAMANT PRÉCIEUX</h1>
+<p>Vos moments précieux, notre savoir-faire</p>
+<a class="btn" href="https://wa.me/243975538555">Nous contacter sur WhatsApp</a>
+</header>
+<section class="brand">
+<h2>Le Phénix Photography</h2>
+<p>Photographie de mariage, portraits, anniversaires et souvenirs inoubliables.</p>
+<p class="note">Notre galerie photo sera ajoutée dès que tes photos originales seront disponibles.</p>
+</section>
+<section>
+<h2>Maison Diamant Précieux</h2>
+<h3>Nos prestations et tarifs</h3>
+<div class="prices">
+<div class="price"><span>Mariage — photos électroniques + cadre en bois 20×30</span><strong>350 $</strong></div>
+<div class="price"><span>Mariage — photo et vidéo</span><strong>500 $</strong></div>
+<div class="price"><span>Dot</span><strong>100 $</strong></div>
+<div class="price"><span>Mariage coutumier + dot</span><strong>150 $</strong></div>
+<div class="price"><span>Anniversaire</span><strong>100 $</strong></div>
+<div class="price"><span>Séance photo</span><strong>50 $ / 80 $</strong></div>
+<div class="price"><span>Séance photo en famille</span><strong>100 $</strong></div>
+</div>
+<p class="note">Pour les détails et les réservations, contactez-nous directement.</p>
+<a class="btn" href="https://wa.me/243975538555">Réserver sur WhatsApp</a>
+</section>
+<section style="text-align:center">
+<h2>Contact</h2>
+<p>WhatsApp : +243 975 538 555</p>
+<a href="https://wa.me/243975538555" class="btn">Écrire sur WhatsApp</a>
+<p class="note">Scannez ce QR code pour ouvrir WhatsApp.</p>
+<img alt="QR code WhatsApp" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fwa.me%2F243975538555">
+</section>
+<footer>© Le Phénix Photography · Maison Diamant Précieux</footer>
+</body>
+</html>
